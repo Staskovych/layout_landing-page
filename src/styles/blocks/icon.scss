@@ -2,7 +2,7 @@
   height: 24px;
   width: 24px;
   display: block;
-  background-image: url(/src/images/Icon-Burger-menu.png);
+  background-image: url(/src/images/Icon-Burger-menu.svg);
   background-size: cover;
   transition: transform 0.3;
 
@@ -14,18 +14,18 @@
   }
 
   &--phone {
-    background-image: url(/src/images/icon-phone.png);
+    background-image: url(/src/images/icon-phone.svg);
   }
 
   &--menu {
-    background-image: url(/src/images/Icon-Burger-menu.png);
+    background-image: url(/src/images/Icon-Burger-menu.svg);
 
     &:hover {
-      background-image: url(/src/images/Icon-burger-menu-hover.png);
+      background-image: url(/src/images/Icon-burger-menu-hover.svg);
     }
   }
 
   &--close {
-    background-image: url(/src/images/icon-close.png);
+    background-image: url(/src/images/icon-close.svg);
   }
 }

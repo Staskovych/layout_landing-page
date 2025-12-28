@@ -42,10 +42,14 @@
     height: 56px;
     border: none;
     border-radius: 8px;
-    background-color: #f8f8fa;
+    color: $hover-button;
+    background-color: $main-text-color;
 
     &:hover {
       cursor: pointer;
+      background-color: $hover-button;
+      color: $main-text-color;
+      border: 2px solid #f0f1f4;
     }
   }
 }
@@ -64,5 +68,9 @@
     text-decoration: none;
     color: $contact-text-color;
     font-family: $contetn-font;
+
+    &:hover {
+      color: $content-title-color;
+    }
   }
 }
